@@ -1,0 +1,134 @@
+<html>
+<head>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    
+    <title> LOVE LETTER </title>
+    
+</head>   
+<style>
+h1 {
+    font-size: 6em;
+    color:red;
+    font-weight:bolder;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+}
+body {
+    background-image: url("back1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    
+        
+
+blink {
+        animation: blinker 0.6s linear infinite;
+        color: red;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+
+h2 {
+    font-size: 5em;
+    color: rebeccapurple;
+}
+
+h3 {
+    font-size: 4em;
+    color: palevioletred;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+
+    h4 {
+        font-size:2em;
+        color: purple;
+        font-weight: bold;
+    }
+    
+</style>
+<body>
+    
+<header class="w3-container w3-teal">
+ 
+    <br><br>
+
+    <h1><center><blink>YOU HAVE THREE MATCHES IN YOUR AREA!!</blink></center></h1>
+
+    
+</header>
+<br><br><br><br><br><br>
+
+ <div class="w3-container">
+        <div class="row">
+            
+            <div class="col" id>
+                <a href="amy.html">
+                    <center><img class="picture" src="one.jpg" height="250"></center>
+                </a>
+            
+                <h2><center>AMY</center></h2>
+                <h4><center>21, Muntinlupa</center></h4>
+            </div>
+       
+            <div class="col">
+                <a href="amber.html">
+                   <center><img class="picture" src="two.jpeg" height="250"></center> 
+                </a>
+  
+                <h2><center>    AMBER   </center></h2>
+                <h4><center>18, Little Tokyo</center></h4>
+            </div>
+        
+            <div class="col">
+                <a href="jusinte.html">
+                   <center> <img class="picture" src="three.jpeg" height="250"></center>
+                </a>
+                
+                <h2><center>    JUSTINE   </center></h2>
+                <h4><center>41, Pasig</center></h4>
+            </div>  
+        </div>
+    </div>
+    
+    <br><br><br><br><br><br>
+  <h3><center>THESE THREE HAVE SOME LOVE LETTERS FOR U!!</center></h3>    
+</body>
+</html>

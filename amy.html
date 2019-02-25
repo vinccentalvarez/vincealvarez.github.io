@@ -1,0 +1,131 @@
+<html>
+<head>
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>AMY</title>
+    
+</head>  
+<style>
+body {
+    background-image: url("Amy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+    
+img {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    
+    
+blink {
+        animation: blinker 1s linear infinite;
+        color: white;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 1s linear infinite;
+       }
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+
+h1 {
+    font-size: 7em;
+    color: white;
+}    
+    
+h3 {
+    font-size: 4em;
+    color: yellow;
+}
+
+h4 {
+    font-size: 2em;
+    color: white;
+}
+
+h5 {
+    font-size: 4em;
+    color: lightpink;     
+}
+    
+h6{
+    font-size:3em;
+    color:lightgoldenrodyellow;
+    }
+</style>
+<body>
+
+    
+<header class="w3-container w3-teal">
+    
+    <h1><center><blink>HI, I'M AMY BABY!! </blink></center></h1>
+    
+</header> 
+
+<div class="w3-container">
+    <div class="row">
+    <div class="col">
+        <center><img class="picture" src="one.jpg" height="300"></center>
+        <h4>
+        Age: 21
+        <br><br>
+        Area: Muntinlupa
+        <br><br>
+        Interested In: Male
+        <br><br>
+        Looking For: A well groomed handsome man, who is ready for me to take control.
+        </h4>
+    </div>
+    
+    <div class="col">
+        
+        <header class="w3-container w3-teal">
+    
+        <h5><center>MY LOVE LETTER:</center></h5>
+    
+        </header> 
+        <br><br>
+        
+        <h6>ROSES ARE</h6> <h3>RED,</h3> <h6>SOMETIMES THEY'RE</h6> <h3>THORNY,</h3>
+            <br>
+        <h6>WHEN UR WITH ME, I GET KINDA</h6><h3>"... CORNY"</h3>
+    
+    </div>
+    </div>
+</div>
+
+<a href="home.html">
+    <center><h2>I DONT LIKE AMY</h2></center>
+</a>    
+
+</body>
+</html>
